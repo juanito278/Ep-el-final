@@ -14,7 +14,7 @@ setrest01 = Blueprint('setrest01', __name__)
 db_config = {
     'host': 'localhost',
     'user': 'root',
-    'password': 'M4tsum0t017*',
+    'password': 'Juan1111*',
     'database': 'cursoPython'
 }
 
