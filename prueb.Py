@@ -12,7 +12,7 @@ chrome_options.add_argument('--ignore-certificate-errors')
 # chrome_options.add_argument("--headless")  # Ejecutar en modo headless si es necesario
 
 # Ruta al ChromeDriver
-chromedriver_path = r'C:\\Users\\user\\Desktop\\Codigos\\CursoPy\\CursoPython_Final\\chromedriver.exe'
+chromedriver_path = r'C:\\Users\\user\\Desktop\\Codigos\\CursoPy\\Python_Final\\chromedriver.exe'
 
 # Inicializa el servicio de ChromeDriver
 service = Service(chromedriver_path)
