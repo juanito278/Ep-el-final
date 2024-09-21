@@ -28,13 +28,13 @@ try:
     codigo = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.ID, 'codigo'))
     )
-    codigo.send_keys("2022101401")
+    codigo.send_keys("2020101092")
 
     # Espera hasta que el campo de contraseña esté presente y envía la contraseña
     password = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.ID, "password"))
     )
-    password.send_keys("763254")
+    password.send_keys("12345")
 
     # Espera hasta que el botón de login esté presente y hace clic
     login = WebDriverWait(driver, 10).until(
