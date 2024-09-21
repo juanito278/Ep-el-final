@@ -34,7 +34,7 @@ def inicializarVariables(codigo, password):
     chrome_options = Options()
     chrome_options.add_argument("--start-maximized")
     chrome_options.add_argument('--ignore-certificate-errors')
-    chromedriver_path = 'C:\\Users\\user\\Desktop\\Codigos\\CursoPy\\CursoPython_Final\\chromedriver.exe'
+    chromedriver_path = 'C:\\Users\\user\\Desktop\\Codigos\\CursoPy\\Python_Final\\chromedriver.exe'
     
     service = Service(chromedriver_path)
     driver = webdriver.Chrome(service=service, options=chrome_options)
